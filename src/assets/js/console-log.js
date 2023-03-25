@@ -5,6 +5,7 @@ function consoleLog(arg = 'consoleLog'){
 
     console.log("$$$$$");
     
+    console.log("#####");
 }
 
 export default consoleLog;
