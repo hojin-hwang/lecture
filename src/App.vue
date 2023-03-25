@@ -1,5 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import consoleLog from './assets/js/console-log.js'
+
+consoleLog('new Text');
+
+const jQuery = 7;
+
+(($) => {
+    //$ 사용가능
+})(jQuery);
+
 </script>
 
 <template>
@@ -8,11 +18,10 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav>
         <RouterLink to="/rule">Rule</RouterLink>
         <RouterLink to="/function">Function</RouterLink>
-        <RouterLink to="/something">Something</RouterLink>
+        <RouterLink to="/jquery">jQuery</RouterLink>
       </nav>
     </div>
   </header>
-
   <RouterView />
 </template>
 

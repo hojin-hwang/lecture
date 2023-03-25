@@ -111,6 +111,7 @@ const get_json_request_to_promise = function(url, formData, method = 'POST',  cu
 
     <article class="code">
         <h3 id="async">Async & Await Function</h3>
+        <span><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/await" target="_blank">https://developer.mozilla.org/</a></span>
         <pre v-highlightjs><code class="hljs javascript">const asyncFunction = async (color) =>
 {
     let promise = new Promise((resolve, reject) => 
