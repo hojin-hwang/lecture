@@ -4,6 +4,8 @@ function consoleLog(arg = 'consoleLog'){
     console.log("1011 commit")
 
     console.log("1012 commit")
+
+    console.log("1013 commit")
 }
 
 export default consoleLog;
