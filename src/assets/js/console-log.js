@@ -1,11 +1,5 @@
 function consoleLog(arg = 'consoleLog'){
-    console.log(arg);
-    
-    console.log('2202')
-
-    console.log("$$$$$");
-    
-    console.log("#####");
+    console.log("message : ",  arg)
 }
 
 export default consoleLog;
